@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title>SWTL JS Chapters 41-50 Samples</title>
+    <link rel="stylesheet" type="text/css" href="styles/default.css">
+	<script src="scripts/swlt_chapter41-50.js"></script>
+</head>
+<body>
+<header>
+    <h1>Safron's Ice Cream</h1>
+	<h1><small>The Freshest Ice Cream on the Earth!</small></h1>
+    <h2>Branded SWTL-JS Chapters 41 - 50</h2>
+</header> 
+<main>
+   <table>
+	<tr>
+	<td>
+	
+	<h3>Chapter 41</h3>
+    <p>id="expand" onMouseover="expand()"
+            function expand(){
+                document.getElementById("expand").innerHTML ="Hello, Thanks for visiting Safron"s Ice Cream again!."
+            }
+    </p>
+    <p id="expand" onMouseover="expand()">Expand On Hover</p>
+
+    <h3>Chapter 42</h3>
+     <p>Click the following button, you will be redirected to Safron's Ice Cream toc page.</p>
+      
+     <p><button onclick="Redirect()">Redirect</button></p>    
+
+    <h3>Chapter 43</h3>
+    <p> var i = 0; do{ alert(i); i++; } while(i  7); }</p>
+    <p><button onclick="countUp()">Example</button></p>
+
+    <h3>Chapter 44</h3>
+    <form>
+     <input type="button" onClick="myPopup()" value="POP!">
+   </form>
+    <p onClick="myPopup()">CLICK ME TOO!</p>
+    
+     <h3>Chapter 45</h3>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+     <button onclick="myFunction()" id="myBtn">Read more</button>
+
+    <h3>Chapter 46</h3>
+    <p>Welcome</p>
+    <p><a href="JavaScript:void(0)" onclick="alert('Hi, Welcome to Safron Ice Cream')">Click Here</a></p>
+
+    <h3>Chapter 47</h3>
+    <p>Please input a number between 1 and 10:</p>
+
+    <input id="numb">
+
+    <button type="button" onclick="myFunction()">Submit</button>
+
+    <p id="demo"></p>
+
+    
+    <h3>Chapter 48</h3>
+    <p>Plese Enter your Comments (
+	        onFocus="this.style.background = 'pink';"
+            onBlur="this.style.background = 'gray';"</p>
+    <p>
+        Comments:
+        <input type="text" size="50"
+        onFocus="this.style.background = 'pink';"
+        onBlur="this.style.background = 'gray';"
+        >
+    </p>
+
+    <h3>Chapter 49</h3>
+    <p>function checkFeedback(fieldID){
+            if(document.getElementById(fieldID).value ===""){
+                alert("Thank you for being our valued customer. Your feedback is important to us. ") }
+            else{ alert("Thank you for your feedback & hope to see you next time.")}
+        }</p>
+    
+        <form onsubmit="checkFeedback('comments')">
+        Comments: <br>
+        <input type="text" size= "50" id="comments">
+        <input type="submit" value="Submit">
+        </form>
+    
+
+    <h3>Chapter 50</h3>
+    <p id="greetUser"></p>
+    <p>
+        Please enter your name: <br>
+        <input type="text" name="user" id="user">
+        <input onclick="greeting()" type="submit" value="Submit">
+    </p>
+
+	
+	</td>
+	</tr>
+	</table>
+	
+
+</main>
+<footer class="footer">
+            <br/>&copy; 2019 - designed by Safron Haile
+            <br/>
+	        <br/>
+			<a href="http://validator.w3.org/check?uri=referer">
+				<img src="images/valid_html5.gif"  alt="Valid HTML 5" height="31" width="88" style="border:0px;" /> 
+			</a>
+					
+			<a href="https://jigsaw.w3.org/css-validator/check/referer">
+				<img src="images/vcss.gif"  alt="Valid CSS" height="31" width="88" style="border:0px;" />
+			</a>
+</footer>
+</body>
+</html>
+

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title>SWTL JS Chapters 81-90 Samples</title>
+    <link rel="stylesheet" type="text/css" href="styles/default.css">
+	<script src="scripts/swlt_chapter80-89.js"></script>
+</head>
+<body>
+<header>
+    <h1>Safron's Ice Cream</h1>
+	<h1><small>The Freshest Ice Cream on the Earth!</small></h1>
+    <h2>Branded SWTL-JS Chapters 81 - 90</h2>
+</header> 
+<main>
+   <table>
+	<tr>
+	<td>
+	<h3>Chapter 81</h3>
+    <p>Click the button below to check if you have a popup blocker.</p>
+    <p><button onclick="checkForBlocker()">Blocker?</button></p>
+
+    <h3>Chapter 82</h3>
+
+        <form onsubmit="return checkForName();">
+        Please enter your last name and click submit. <br>
+        <input type="text" id="name">
+        <input type="submit" value="submit">
+        </form>
+
+    
+    <h3>Chapter 83</h3>
+    
+        <form onsubmit="return checkForFavorite();">
+        Please Select your favorite Ice Cream from drop-down list :
+        <select id="favorite">
+            <option value="">Select</option>
+            <option value="spring">Vanilla</option>
+            <option value="summer">Chocolate</option>
+            <option value="fall">Strawberry</option>
+            <option value="winter">Neapolitan</option>
+			<option value="summer">Buttered Pecan</option>
+            <option value="fall">Cherry Vanilla</option>
+        </select>
+        <input type="submit" value="Submit">
+        </form>
+    
+
+    <h3>Chapter 84</h3>
+    
+        <form onsubmit="return validateIceCream();">
+		<input type="radio" name="r1" value="Vanilla">Vanilla<br>
+		<input type="radio" name="r1" value="Chocolate">Chocolate<br>
+		<input type="radio" name="r1" value="Neapolitan">Neapolitan<br>
+		<input type="submit" value="Submit Form">
+		</form>
+    
+    
+    <h3>Chapter 85</h3>
+    
+        <form onsubmit="return checkForZip()">
+        Please enter your five digits Zip Code: <br>
+        <input type="text" placeholder="Zip Code" id="zipCode" maxlength="5">
+        <input type="submit" value="Submit">
+        </form>
+    
+
+    <h3>Chapter 86</h3>
+    
+        <form onsubmit="return validateEmail()">
+            Please enter your email address below: <br>
+            <input type="email" id="eAddress" placeholder="safron@email.com">
+            <input type="submit" value="Submit">
+
+        </form>
+    
+
+    <h3>Chapter 87</h3>
+    <p>Pop-up message box:- "Hello, Welcome to Safron's Ice Cream"</p>
+    <p>
+        <button onclick="greetWorld()">Error?</button>
+    </p>
+
+    <h3>Chapter 88</h3>
+    <form onSubmit="returncheckPassword();">
+	Enter  apassword<br>
+    (8-12characters,at least 1 number,nospaces)<br>
+	<input type="text" id="iceCream"><input type="submit" value="Submit"></form>
+
+    <h3>Chapter 89</h3>
+    <p>Click the button for a greeting.</p>
+    <input type="button" value="Hello" onClick="sayHello();">
+	
+	
+	</td>
+	</tr>
+	</table>
+	
+
+</main>
+<footer class="footer">
+            <br/>&copy; 2019 - designed by Safron Haile
+            <br/>
+	        <br/>
+			<a href="http://validator.w3.org/check?uri=referer">
+				<img src="images/valid_html5.gif"  alt="Valid HTML 5" height="31" width="88" style="border:0px;" /> 
+			</a>
+					
+			<a href="https://jigsaw.w3.org/css-validator/check/referer">
+				<img src="images/vcss.gif"  alt="Valid CSS" height="31" width="88" style="border:0px;" />
+			</a>
+</footer>
+</body>
+</html>
+

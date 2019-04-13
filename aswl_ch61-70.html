@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title>SWTL JS Chapters 61-70 Samples</title>
+    <link rel="stylesheet" type="text/css" href="styles/default.css">
+	<script src="scripts/swlt_chapter61-70.js"></script>
+</head>
+<body>
+<header>
+    <h1>Safron's Ice Cream</h1>
+	<h1><small>The Freshest Ice Cream on the Earth!</small></h1>
+    <h2>Branded SWTL-JS Chapters 61 - 70</h2>
+</header> 
+<main>
+   <table>
+	<tr>
+	<td>
+	<h3>Chapter 51</h3>
+    <p id="para">Safron's Ice Cream.</p>
+    <button onclick="changeColor('green');">GREEN</button>
+    <button onclick="changeColor('red');">RED</button>
+	
+	<h3>Chapter 52</h3>
+   <label>Choose an ice cream flavor:
+    <select id="ice-cream" name="ice-cream">
+        <option value="">Select One …</option>
+        <option value="chocolate">Chocolate</option>
+        <option value="strawberry">Strawberry</option>
+        <option value="vanilla">Vanilla</option>
+    </select>
+    </label>
+	
+	<h3>Chapter 53</h3>
+    <form action="/button-type">
+	<button type="button" onclick="alert('This button does nothing.')">Click me for no reason!</button><br><br>
+	<label >Favorite Ice Cream</label><br>
+	<input name="name"><br><br>
+	<button type="reset">Reset the form</button><br><br>
+	</form>
+
+	<h3>Chapter 54</h3>
+	<p>function create(){
+            var parentDiv = document.getElementById("secondDiv")
+            var newParagraph = document.createElement("p");
+            var a = document.createTextNode("Hello, Welcome to Safron's Ice Cream!");
+            newParagraph.appendChild(a);
+            parentDiv.appendChild(newParagraph);
+        }</p>
+    <p><button onclick="create()">Click Me Again & Again Please</button></p>
+    <div id="secondDiv"></div>
+    
+	<h3>Chapter 55</h3>
+    <input type="button" onclick="countIceCream()" value="Count IceCream!">
+	
+	<h3>Chapter 56</h3>
+    <input type="button" onclick="this.hidden=true" value="Click to hide">
+	
+	<h3>Chapter 57</h3>
+    Order1: <input type="text" id="order1" value="Vanilla Ice Cream"><br>
+    Order2: <input type="text" id="order2"><br><br>
+	<button onclick="myFunction()">Copy Order</button>
+	
+	<h3>Chapter 58</h3>
+     <input type="checkbox" onClick="toggle(this)" /> Select All<br/>
+	<input type="checkbox" name="check" value="check1"> Vanilla Ice Cream<br/>
+	<input type="checkbox" name="check" value="check2"> Chocolateice Ice Cream<br/>
+	<input type="checkbox" name="check" value="check3"> Strawberry Ice Cream<br/>
+	<input type="checkbox" name="check" value="check4"> Neapolitan Ice Cream<br/>
+	
+	<h3>Chapter 59</h3>
+    <p id="myP">Welcome To Safron's Ice Cream.</p>
+	<button type="button" onclick="myFunction()">Set word spacing</button>
+	
+	<h3>Chapter 60</h3>
+    <input id="price">Price
+	<br><br>
+	<input id="discount">%
+	<br><br>
+	<button onclick="getPrice()">
+	Get total
+	</button>
+	<br><br>
+	<input readonly id="total">
+
+
+	</td>
+	</tr>
+	</table>
+	
+
+</main>
+<footer class="footer">
+ <br/>&copy; 2019 - designed by Safron Haile
+  <br/>
+  <br/>
+  <a href="http://validator.w3.org/check?uri=referer">
+  <img src="images/valid_html5.gif"  alt="Valid HTML 5" height="31" width="88" style="border:0px;" /> 
+  </a>
+					
+  <a href="https://jigsaw.w3.org/css-validator/check/referer">
+  <img src="images/vcss.gif"  alt="Valid CSS" height="31" width="88" style="border:0px;" />
+  </a>
+</footer>
+</body>
+</html>
+

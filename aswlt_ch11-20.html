@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title>SWTL JS Chapters 11-20 Samples</title>
+    <link rel="stylesheet" type="text/css" href="styles/default.css">
+	<script src="scripts/aswlt11-20.js"></script>
+</head>
+<body>
+<header>
+    <h1>Safron's Ice Cream</h1>
+	<h1><small>The Freshest Ice Cream on the Earth!</small></h1>
+    <h2>Branded SWTL-JS Chapters 11 - 20</h2>
+</header> 
+<main>
+    <div class="container">
+	<table>
+	<tr>
+    <td>Chapter 11</td>
+    <td><p>var quuestion = prompt('What is your favorite dessert?'); if(question !== 'Ice Cream'"){ alert('Why not Ice Cream?'); }else{ alert('Thank You for choosing Ice Cream!')}  </p></td>
+    <td><p><button onclick="question()">Dessert?</button></p></td>
+    </tr>
+	<tr>
+	
+   <td>Chapter 12</td>
+   <td><p>var favoriteFlaovr=prompt('What is your favorite Ice Cream flavor?');var flavor=['vanilla', 'chocolate', 'strawberry', 'chocolate chip', 'Neapolitan'];  for(var i =0; i&lt;=5; i++) { if(favoriteFlavor ===flavor[i]){ alert('This is such a great choice!');</p></td>
+   <td><p><button onclick="flavor()">Favorite Flavor?</button></p></td>
+   </tr>
+   
+   <tr>
+   <td>Chapter 13</td>
+   <td><p> var bestIceCream = prompt('Do you know where the freshest Ice cream sold ?'); if (bestIceCream=== "Safron's Ice Cream" || bestIceCream === "safron's ice cream" || bestIceCream === "Safron's Ice Cream") {
+		 alert("Yes,we are pretty popular !");}else { alert("Sorry, you choose the wrong answer!"); }</p></td>
+   <td><p><button onclick="freshest()" >Freshest Ice Cream</button></p></td>
+   </tr>
+   
+   <tr>
+   <td>Chapter 14</td>
+   <td><p>var namePrompt = "Please input your name:"; var defaultAnswer = "YourFirstName"; var username = prompt(namePrompt, defaultAnswer); alert(" 15% OFF YOUR NEXT ORDER,Thank You for choosing us " + username); </p></td>
+   <td><p><button onclick="off()">15% off?</button></p></td>
+   </tr>
+   
+   <tr>
+   <td>Chapter 15</td>
+   <td><p>var location = prompt("Do you know where Safron's Ice Cream located?"); if (location === "Charlotte" || location === "charlotte" || location === "Atlanta" || location === "atlanta") { alert("Thats right!"); } else { alert("Sorry, we don't have a store there yet,Sorry, we don't have a store there yet, We are eager to expand our presence soon!"); }</p></td>
+   <td><p><button onclick="clickLocation()">Our Location?</button></p></td>
+   </tr>
+   
+    <tr>
+   <td>Chapter 16</td>
+   <td><p>var flavours = prompt("Do you how many flavours does Safron's Ice Cream have? ?");if (flavours === "15" || flavors === "fifteen") {alert("Correct, but we plan on adding more!");} else {alert("Try again!");}</p></td>
+   <td><p><button onclick="clickAlert1()">How many?</button></p></td>
+   </tr>
+   
+    <tr>
+   <td>Chapter 17</td>
+   <td><p> var ourLocation = "Charlotte";var city = "Safron's Ice Cream";alert('Our Locatl Store in North Carlolina ' + city + ' is located in ' + city + '.');}</p></td>
+   <td><p><button onclick="ourLocation()">Our Location?</button></p></td>
+   </tr>
+   
+    <tr>
+   <td>Chapter 18</td>
+   <td><p>var iDay = prompt("Which day is today ?", ""); if (iDay != null) { alert("Today is " + iDay); } else { alert("You should enter a Day !!"); } }</p></td>
+   <td><p><button onclick="promptUser()">What Day Is Today?</button></p></td>
+   </tr>
+   
+   <tr>
+   <td>Chapter 19</td>
+   <td><p>var conVal = confirm(" Please confirm your order !!"); if (conVal == true) { val = "Your Order is Confirmed Ennjoy Your Ice Cream!!"; } else { val = "Cancelled !!"; } alert(val); }</p></td>
+   <td><p><button onclick="confirmMesage()">Confirm Your Order?</button></p></td>
+   </tr>
+   
+    <tr>
+   <td>Chapter 20</td>
+   <td><p>var userselection = confirm("Are you sure you want to close this account with Safron's Ice Cream permanently?");if (userselection == true){alert("Your Account is now deleted.Thank you for being a valued customer!");}
+          else{alert("Your account is not deleted!");
+}    
+}</p></td>
+   <td><p><button onclick="confirmalert()">Close Your Account?</button></p></td>
+   </tr>
+   
+  
+	</table>
+    </div>
+</main>
+<footer class="footer">
+            <br/>&copy; 2019 - designed by Safron Haile
+            <br/>
+	        <br/>
+			<a href="http://validator.w3.org/check?uri=referer">
+				<img src="images/valid_html5.gif"  alt="Valid HTML 5" height="31" width="88" style="border:0px;" /> 
+			</a>
+					
+			<a href="https://jigsaw.w3.org/css-validator/check/referer">
+				<img src="images/vcss.gif"  alt="Valid CSS" height="31" width="88" style="border:0px;" />
+			</a>
+</footer>
+</body>
+</html>
+

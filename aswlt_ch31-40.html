@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title>SWTL JS Chapters 31-40 Samples</title>
+    <link rel="stylesheet" type="text/css" href="styles/default.css">
+	<script src="scripts/swlt_chapter31-40.js"></script>
+</head>
+<body>
+<header>
+    <h1>Safron's Ice Cream</h1>
+	<h1><small>The Freshest Ice Cream on the Earth!</small></h1>
+    <h2>Branded SWTL-JS Chapters 31 - 40</h2>
+</header> 
+<main>
+    <div class="container">
+	<table>
+	<tr>
+    <td>Chapter 31</td>
+    <td><p>var welcome =prompt("Thank you for visiting Safron's Ice Cream and making your first purchase! We’re glad that you found what you were looking for. It is our goal that you are always happy with what you bought from us!");</p></td>
+    <td><p><button onclick="welcome()">Welcome </button></p></td>
+    </tr>
+	<tr>
+	<td>Chapter 32</td>
+    <td><p>var currentDateTime = new Date();alert(currentDateTime);</p></td>
+    <td><p><button onclick="getDateTime()">Current Date & Time</button></p></td>
+    </tr>
+	<tr>
+	<td>Chapter 33</td>
+    <td><p>var ice9cream = 9; var new9flavors = ++ice9cream; alert("Hello Customers! Safron's Ice Cream are pleased to announce that we are now added  " + new9flavors +  "more Ice Cream flavors & feel free to ask for a sample!");</p></td>
+    <td><p><button onclick="addingIceCream()">Free Ice Cream Sample?</button></p></td>
+    </tr>
+	<tr>
+	<td>Chapter 34</td>
+    <td><p> var today = new Date();
+            var anniversary = new Date("December 27,2019");
+            var mStoday = today.getTime();
+            var manniversary  = anniversary .getTime();
+            var daysUntil = mSanniversary  - mStoday;
+            var dDaysUntil = daysUntil / (1000*60*60*24);
+            alert(Math.floor(dDaysUntil) + " days left until Safron's Ice Cream Anniversary");</p></td>
+    <td><p><button onclick="daysLeft()">Anniversary</button></p></td>
+    </tr>
+	<tr>
+	<td>Chapter 35</td>
+    <td><p>var rightNow = new Date()
+           var currentHour = rightNow.getHours();
+           var currentMinute = rightNow.getMinutes();
+           alert(currentHour + "Hour(s) and " + currentMinute + "minute(s)");
+           }</p></td>
+    <td><p><button onclick="tellTime()">Local Time</button></p></td>
+    </tr>
+	<tr>
+	<td>Chapter 36</td>
+    <td><p>function monthlySpecial(){var februarySpecial = {month: "February",flavor: "Neapoitan Ice Cream",price: 1.99};
+           alert("February special price: \n" + februarySpecial.flavor +" $"+ Special.price);}</p></td>
+    <td><p><button onclick="monthlySpecial()">This Month Special</button></p></td>
+    </tr>
+	<tr>
+	<td>Chapter 37</td>
+    <td><p>var icecream; icecream = 15; var newicecream = icecream - 2; alert("Unfortunatelly, now we have only " + newicecream" + Ice Cream flavors out of " + icecream + "!"); </p></td>
+    <td><p><button onclick="weAreOut()">Out Of Ice Cream</button></p></td>
+    </tr>
+	<tr>
+	<td>Chapter 38</td>
+    <td><p>var myBrand; myBrand = Safron's Ice Cream; alert("Welcome to  " + myBrand);</p></td>
+    <td><p><button onclick="myBrand()">Welcome To My Brand</button></p></td>
+	</tr>
+	<tr>
+	<td>Chapter 39</td>
+    <td><p>var buy2icecream; buy2icecream = 2; var safron2icecream = buy2icecream - 1; alert("Safron's Ice cream is a pretty sweet deal. Get " + buy2icecream + " Ice Cream Cone, get " + safron2icecream + " FREE from Feb 1st thru May 31st 2019!");</p></td>
+    <td><p><button onclick="buy1get1free()">Buy 2 Get 1 FREE</button></p></td>
+    </tr>
+	<tr>
+	<td>Chapter 40</td>
+    <td><p>Click the button to display an alert box.</p></td>
+    <td><p><button onclick="thankYou()">Thank You For Visiting</button></p></td>
+    </tr>
+	
+	
+	
+	</table>
+    </div>
+</main>
+<footer class="footer">
+            <br/>&copy; 2019 - designed by Safron Haile
+            <br/>
+	        <br/>
+			<a href="http://validator.w3.org/check?uri=referer">
+				<img src="images/valid_html5.gif"  alt="Valid HTML 5" height="31" width="88" style="border:0px;" /> 
+			</a>
+					
+			<a href="https://jigsaw.w3.org/css-validator/check/referer">
+				<img src="images/vcss.gif"  alt="Valid CSS" height="31" width="88" style="border:0px;" />
+			</a>
+</footer>
+</body>
+</html>
+
